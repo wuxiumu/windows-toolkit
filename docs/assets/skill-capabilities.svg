@@ -1,0 +1,51 @@
+<svg viewBox="0 0 680 410" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<title>dev-env-inventory skill 能力图</title>
+<desc>展示本机开发环境清单 skill 的触发问题、四大能力域与只读边界</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<text x="40" y="46" font-size="12" font-weight="400" fill="#5F5E5A">用户会这样问</text>
+<rect x="40" y="56" width="138" height="38" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="109" y="75" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#0C447C">装了什么工具？</text>
+<rect x="194" y="56" width="138" height="38" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="263" y="75" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#0C447C">怎么切版本？</text>
+<rect x="348" y="56" width="138" height="38" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="417" y="75" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#0C447C">工具装在哪？</text>
+<rect x="502" y="56" width="138" height="38" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="571" y="75" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#0C447C">怎么装新版？</text>
+<path d="M109 94 L250 130" fill="none" stroke="#B4B2A9" stroke-width="0.5" marker-end="url(#arrow)"/>
+<path d="M263 94 L310 130" fill="none" stroke="#B4B2A9" stroke-width="0.5" marker-end="url(#arrow)"/>
+<path d="M417 94 L370 130" fill="none" stroke="#B4B2A9" stroke-width="0.5" marker-end="url(#arrow)"/>
+<path d="M571 94 L430 130" fill="none" stroke="#B4B2A9" stroke-width="0.5" marker-end="url(#arrow)"/>
+<rect x="190" y="130" width="300" height="60" rx="12" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+<text x="340" y="152" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#042C53">dev-env-inventory</text>
+<text x="340" y="172" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0C447C">本机开发环境清单 · 只读查询</text>
+<path d="M340 190 L109 222" fill="none" stroke="#B4B2A9" stroke-width="0.5" marker-end="url(#arrow)"/>
+<path d="M340 190 L263 222" fill="none" stroke="#B4B2A9" stroke-width="0.5" marker-end="url(#arrow)"/>
+<path d="M340 190 L417 222" fill="none" stroke="#B4B2A9" stroke-width="0.5" marker-end="url(#arrow)"/>
+<path d="M340 190 L571 222" fill="none" stroke="#B4B2A9" stroke-width="0.5" marker-end="url(#arrow)"/>
+<rect x="40" y="222" width="138" height="110" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="109" y="246" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#04342C">环境清单</text>
+<text x="109" y="272" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">6 种语言版本</text>
+<text x="109" y="294" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">安装位置·磁盘</text>
+<text x="109" y="316" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">IDE / 容器 / AI</text>
+<rect x="194" y="222" width="138" height="110" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="263" y="246" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#04342C">版本管理</text>
+<text x="263" y="272" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">uv · fnm · scoop</text>
+<text x="263" y="294" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">装版本 / 切版本</text>
+<text x="263" y="316" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">列出已装版本</text>
+<rect x="348" y="222" width="138" height="110" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="417" y="246" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#04342C">网络与排障</text>
+<text x="417" y="272" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">代理配置要点</text>
+<text x="417" y="294" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">清单 URL 修复</text>
+<text x="417" y="316" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">shim 缺失修复</text>
+<rect x="502" y="222" width="138" height="110" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="571" y="246" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#04342C">回答原则</text>
+<text x="571" y="272" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">只读 不执行</text>
+<text x="571" y="294" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">标注数据日期</text>
+<text x="571" y="316" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#0F6E56">变更先复核</text>
+<rect x="40" y="346" width="600" height="44" rx="10" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+<text x="340" y="368" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="400" fill="#444441">边界：仅查询与命令指引，不执行安装 / 删除 / 切换；实际操作交回主流程确认</text>
+</svg>

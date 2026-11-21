@@ -18,6 +18,26 @@
 
 ---
 
+## 配套 Skill 能力一览
+
+仓库内置的 `dev-env-inventory` Skill 把「这台机器怎么配的」变成随时可查的知识。您用自然语言提问，它依据本仓库的权威清单精确回答，**全程只读、不改动环境**：
+
+![dev-env-inventory skill 能力图](docs/assets/skill-capabilities.svg)
+
+四大能力域：
+
+| 能力域 | 能回答什么 |
+|---|---|
+| **环境清单** | 装了哪些工具、什么版本、装在哪个盘、磁盘如何分布 |
+| **版本管理** | 六语言（Python/Node/PHP/Java/Go/Ruby）怎么装新版本、切换版本、列出已装版本 |
+| **网络与排障** | scoop 代理为何这样配、下载链接失效/ shim 缺失怎么修 |
+| **回答原则** | 只读查询不执行、标注数据日期、环境可疑时先只读复核 |
+
+典型问法：「我这台电脑装了哪些开发工具」「怎么切 Node 版本」「Go 装在哪、什么版本」。
+Skill 源文件：[`skill/dev-env-inventory/SKILL.md`](skill/dev-env-inventory/SKILL.md) · 详细清单：[`docs/01-environment-inventory.md`](docs/01-environment-inventory.md)
+
+---
+
 ## 目标环境画像
 
 方案针对这样一台机器（本文作者的实际配置，可作为参考基准）：
@@ -40,6 +60,8 @@
 windows-toolkit/
 ├── README.md                          # 本文件：项目说明 + 资源利用总纲
 ├── docs/
+│   ├── assets/
+│   │   └── skill-capabilities.svg     # Skill 能力图（README 内嵌）
 │   ├── 01-environment-inventory.md    # 完整开发环境清单
 │   ├── 02-version-management.md       # 六语言版本管理速查
 │   ├── 03-resource-guide.md           # 硬件资源利用指南（核心）
